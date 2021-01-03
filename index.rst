@@ -3,7 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to projector's documentation!
+APPOTRONICS 超短焦激光投影机说明书
 =====================================
 
 .. toctree::
