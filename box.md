@@ -62,8 +62,7 @@ APPOTRONICS超短焦激光投影仪的机箱是一个白色立方箱体，主要
 
 ## 控制单元
 
-![XXXXXXXXX](picture/box.png)
-
+![XXXXXXXXX](picture/control.png)
 
 介绍投影仪的控制单元。
 
@@ -96,18 +95,21 @@ APPOTRONICS超短焦激光投影仪的机箱是一个白色立方箱体，主要
 
 AV 输入插口:分为了3条线，分别为:音频接口(红色与白色线，组成左右声道)和视频接口(黄色)。
 
-![XXXXXXXXX](picture/box.png)
-![XXXXXXXXX](picture/box.png)
+![XXXXXXXXX](picture/AV.jpg)
+![XXXXXXXXX](picture/inputav.jpg)
 
 S-视频输入插口:S端子可以说是AV端子的改革，在信号传输方面不再将色度与亮度混合输出，而是分离进 行信号传输，所以我们又称它为“二分量视频接口”。
 
-![XXXXXXXXX](picture/box.png)
-![XXXXXXXXX](picture/box.png)
+![XXXXXXXXX](picture/s-video.jpg)
+![XXXXXXXXX](picture/inputs-video.jpg)
 
 VGA输入接口:VGA接口又称(S-Dub)，这是源于电脑的输入接口，由于CRT显示器无法直接接受数字信号 的输入，所以显卡只能采取将模拟信号输入显示器的方式来获得画面。而VGA就是将模拟信号传输到显示器 的接口。
 
-![XXXXXXXXX](picture/box.png)
-![XXXXXXXXX](picture/box.png)
+![XXXXXXXXX](picture/vga.jpg)
+![XXXXXXXXX](picture/inputvga.png)
 
 
 HDMI输入接口:HDMI接口不但可以提供全数字的视频信号，而且还可以同时传输音频。
+
+![XXXXXXXXX](picture/hdmi.jpg)
+![XXXXXXXXX](picture/inputhdmi.jpg)
