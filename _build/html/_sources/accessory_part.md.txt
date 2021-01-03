@@ -7,7 +7,7 @@
 
 详细介绍遥控器的外观。
 
-![XXXXXXXXX](picture/box.png)
+![XXXXXXXXX](picture/remote.png)
 
 1. 电源:待机状态按一下可正常开机;开机状态按一下显示关机提示，再次按下电 源键可正常关机。 
 
@@ -43,31 +43,31 @@
 
 1. 1.8 米电源线
 
-![XXXXXXXXX](picture/box.png)
+![XXXXXXXXX](picture/wire1.png)
 
 2. 1.8米M1到D型/USB转接电缆
    
-![XXXXXXXXX](picture/box.png)
+![XXXXXXXXX](picture/wire2.png)
 
 3. 2.0 米 S 视频电缆
 
-![XXXXXXXXX](picture/box.png)
+![XXXXXXXXX](picture/wire3.png)
 
 4. 1.8 米复合视频电缆
 
-![XXXXXXXXX](picture/box.png)
+![XXXXXXXXX](picture/wire4.png)
 
 5. 1.8 米 RCA 到音频电缆
 
-![XXXXXXXXX](picture/box.png)
+![XXXXXXXXX](picture/wire5.png)
 
 6. 1.8 米 Mini-Pin 插孔到 Mini-Pin 插孔电缆
 
-![XXXXXXXXX](picture/box.png)
+![XXXXXXXXX](picture/wire6.png)
 
 7. 1.8 米 M1-A 到 HDTV 转接电缆
    
-![XXXXXXXXX](picture/box.png)
+![XXXXXXXXX](picture/wire7.png)
 
 ## 其他
 
@@ -75,10 +75,10 @@
 
 1. 说明文档:内含详细帮助文档资料。
    
-![XXXXXXXXX](picture/box.png)
+![XXXXXXXXX](picture/docs.png)
 
 2. 电池:标准四号电池一节。
    
-![XXXXXXXXX](picture/box.png)
+![XXXXXXXXX](picture/battery.png)
 
 
