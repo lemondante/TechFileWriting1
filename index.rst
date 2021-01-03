@@ -9,8 +9,17 @@ Welcome to projector's documentation!
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
+   :numbered:
 
-
+   box.md
+   accessory_part.md
+   install.md
+   connect.md
+   change.md
+   menu.md
+   disconnect.md
+   problems.md
+   reference.md
 
 Indices and tables
 ==================
