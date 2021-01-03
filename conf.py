@@ -33,7 +33,6 @@ release = '1.0'
 extensions = [
     'recommonmark',
     'sphinx.ext.githubpages',
-    # "sphinx_rtd_theme"
 ]
 
 source_suffix = {
