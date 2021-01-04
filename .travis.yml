@@ -1,16 +1,26 @@
 language: python
-install: true
-script: true
+
 branches:
   only:
   - lemondante    # 构建的分支
+
+install:
+  
+ - pip install sphinx # sphinx
+ - pip install recommonmark 
+ - pip install sphinx-rtd-theme
+ - python ./googleanalytics/setup.py install #google analytics
+
+script:
+- gitbook build
 
 deploy:
   provider: pages
   skip-cleanup: true
   github-token: $GITHUB_TOKEN # github 上的token环境变量
-  local-dir: ./_build/html/ ## 根据情况自定义到静态文件输出目录
+  local-dir: ./ ## 根据情况自定义到静态文件输出目录，是gh-pages里的目录
   target-branch: gh-pages
   verbose: true
   on:
-    branch: lemondante
+    branch: lemondante #lemondante提交时才会运行
+
