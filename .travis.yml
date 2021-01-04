@@ -9,10 +9,11 @@ install:
  - pip install sphinx # sphinx
  - pip install recommonmark 
  - pip install sphinx-rtd-theme
- - python ./googleanalytics/setup.py install #google analytics
 
 script:
-- gitbook build
+ - cd googleanalytics
+ - python setup.py install #google analytics
+ - gitbook build
 
 deploy:
   provider: pages
