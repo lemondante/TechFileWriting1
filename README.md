@@ -12,3 +12,4 @@
 
 主题采用了oe_sphinx_theme
 
+添加了google analytics插件
