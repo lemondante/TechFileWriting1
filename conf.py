@@ -48,7 +48,7 @@ extensions = [
     "sphinxcontrib.googleanalytics",
 ]
 
-googleanalytics_id = 'UA-257-671-401'
+googleanalytics_id = 'UA-186451534-1'
 
 source_suffix = {
     '.rst': 'restructuredtext',
