@@ -13,6 +13,19 @@
 
 ![](picture/adjustment_focal_length.png)
 
+<table>
+<tr>
+<td>1</td>
+<td>调焦片</td>
+</tr>
+<tr>
+<td>2</td>
+<td>调焦环</td>
+</tr>
+</table>
+
+
+
 ## 调整投影仪高度
 
 提升/降低投影仪高度:
@@ -22,4 +35,17 @@
 3. 用倾斜调整轮来细调显示角度。
 
 ![](picture/adjustment_height.png)
-
+<table>
+<tr>
+<td>1</td>
+<td>升降支架按钮</td>
+</tr>
+<tr>
+<td>2</td>
+<td>升降支架脚</td>
+</tr>
+<td>3</td>
+<td>倾斜调整轮</td>
+</tr>
+</table>
+<table>
