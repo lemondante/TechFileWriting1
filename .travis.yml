@@ -9,6 +9,7 @@ install:
  - pip install sphinx # sphinx
  - pip install recommonmark 
  - pip install sphinx-rtd-theme
+ - pip install oe-sphinx-theme
 
 script:
  - cd googleanalytics
