@@ -12,7 +12,15 @@
 #
 # import os
 # import sys
-# sys.path.insert(0, os.path.abspath('.'))
+
+import os
+import sys
+import oe_sphinx_theme
+sys.path.insert(0, os.path.abspath('.'))
+
+# sys.path.append(os.path.join(os.environ.get("SAMPLE_DOCS_LOCATION"), "demo"))
+# print("", sys.path[-1], "", sep="\n" + "-" * 80 + "\n")
+
 
 
 # -- Project information -----------------------------------------------------
@@ -37,7 +45,10 @@ extensions = [
     "sphinx.ext.autodoc",
     "sphinx.ext.mathjax",
     "sphinx.ext.viewcode",
+    "sphinxcontrib.googleanalytics",
 ]
+
+googleanalytics_id = 'UA-257-671-401'
 
 source_suffix = {
     '.rst': 'restructuredtext',
@@ -59,7 +70,8 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-import oe_sphinx_theme
+html_title = project
+
 html_theme = "oe_sphinx"
 
 # Add any paths that contain custom static files (such as style sheets) here,
