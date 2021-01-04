@@ -1,2 +1,16 @@
 language: python
+install: true
 script: true
+branches:
+  only:
+  - lemondante    # 构建的分支
+
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: $GITHUB_TOKEN # github 上的token环境变量
+  local-dir: ./_build/html/ ## 根据情况自定义到静态文件输出目录
+  target-branch: gh-pages
+  verbose: true
+  on:
+    branch: lemondante
