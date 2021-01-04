@@ -14,7 +14,7 @@ script:
  - cd googleanalytics
  - python setup.py install #google analytics
  - cd ..
- - gitbook build
+ - make html
 
 deploy:
   provider: pages
