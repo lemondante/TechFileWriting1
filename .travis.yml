@@ -20,7 +20,7 @@ script:
 deploy:
   provider: pages
   skip-cleanup: true
-  github-token: $GITHUB_TOKEN # github 上的token环境变量
+  github-token: 5278073b2c259de149973ba9108bc45de5e7e270 # github 上的token环境变量
   local-dir: ./ ## 根据情况自定义到静态文件输出目录，是gh-pages里的目录
   target-branch: gh-pages
   verbose: true
