@@ -13,3 +13,5 @@
 主题采用了oe_sphinx_theme
 
 添加了google analytics插件
+
+(插件中有bug，已修复)

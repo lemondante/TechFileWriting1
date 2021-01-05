@@ -7,7 +7,7 @@
 
 详细介绍遥控器的外观。
 
-![XXXXXXXXX](picture/remote.png)
+![](picture/remote.png)
 
 1. 电源:待机状态按一下可正常开机;开机状态按一下显示关机提示，再次按下电 源键可正常关机。 
 
