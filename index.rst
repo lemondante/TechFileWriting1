@@ -12,10 +12,10 @@ APPOTRONICS 超短焦激光投影机说明书
    :numbered:
 
    box.md
-   accessory_part.md
+   accessory_part.rst
    install.md
    connect.md
-   change.md
+   change.rst
    menu.md
    disconnect.md
    problems.md
