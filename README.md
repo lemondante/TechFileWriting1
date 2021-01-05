@@ -4,11 +4,30 @@
 
 </br>
 
-孙力壮：打工人①号，绘制表格
+<table>
 
-汤倩：打工人②号
+<tr>
+<td>成员</td>
+<td>分工</td>
+</tr>
 
-尤伟康：压榨打工人
+<tr>
+<td>汤倩</td>
+<td>编写ppt、编写wiki</td>
+</tr>
+
+<tr>
+<td>尤伟康</td>
+<td>汇报、创建项目库、设计架构、安装主题、编写markdown文件</td>
+</tr>
+
+
+<tr>
+<td>孙力壮</td>
+<td>编写markdown文件、绘制表格、提出issue、提出pr、编写README</td>
+</tr>
+</table>
+
 
 主题采用了oe_sphinx_theme
 
