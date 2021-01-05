@@ -13,21 +13,22 @@
 
 <tr>
 <td>汤倩</td>
-<td>编写ppt、编写wiki</td>
+<td>编写ppt、编写wiki、编写rST文件、参与github协作</td>
 </tr>
 
 <tr>
 <td>尤伟康</td>
-<td>汇报、创建项目库、设计架构、安装主题、编写markdown文件</td>
+<td>汇报、创建项目库、设计架构、安装主题、插件、自动化部署、编写markdown文件</td>
 </tr>
 
 
 <tr>
 <td>孙力壮</td>
-<td>编写markdown文件、绘制表格、提出issue、提出pr、编写README</td>
+<td>编写markdown文件、绘制表格、编写README、参与github协作</td>
 </tr>
 </table>
 
+## 项目内容
 
 主题采用了oe_sphinx_theme
 
