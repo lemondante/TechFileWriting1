@@ -1,0 +1,198 @@
+<!doctype html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><script type="text/javascript">
+
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-186451534-1']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+    <title>Google Analytics extension for Sphinx &#8212; APPOTRONICS</title>
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/css/app.css" type="text/css" />
+    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script src="../../_static/bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+ 
+<meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+<!-- container -->
+<div class="container">
+  <script type="text/javascript" src="//widgets.vlaanderen.be/widget/live/5499d8dc0848446e91022c6dba9db343?mtime=1421237274"></script>
+  <!-- header -->
+
+  <!-- embed -->
+  <div class="temp-embed"></div>
+
+  <!-- large header bg image -->
+  <div class="bgimage"></div>
+
+  <!-- wrapper & responsive navigation -->
+  <div class="wrapper clearfix">
+    <div class="main-navigation-inner clearfix inner">
+
+
+
+      <!-- logo -->
+      <div class="logo-block">
+        <div class="logo-block-inner">
+          <a href="../index.html">
+            <img src="../_static/img/pyoes/OE-vlaanderen-logo.png" width="65">
+            <h2>Vlaanderen</h2>
+            <h4>is Erfgoed</h4>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="header-border"></div>
+  <div class="row">
+    <div class="large-9 columns">
+      <h3>APPOTRONICS</h3>
+    </div>
+  </div>
+
+  <!-- end header -->
+  <div class="row">
+    
+    <div class="large-9 columns">
+      <div class="body panel" role="main">
+        
+  <div class="section" id="google-analytics-extension-for-sphinx">
+<h1>Google Analytics extension for Sphinx<a class="headerlink" href="#google-analytics-extension-for-sphinx" title="Permalink to this headline">¶</a></h1>
+<dl class="field-list simple">
+<dt class="field-odd">author</dt>
+<dd class="field-odd"><p>Domen Kožar &lt;<a class="reference external" href="mailto:domen&#37;&#52;&#48;dev&#46;si">domen<span>&#64;</span>dev<span>&#46;</span>si</a>&gt;</p>
+</dd>
+</dl>
+<div class="section" id="about">
+<h2>About<a class="headerlink" href="#about" title="Permalink to this headline">¶</a></h2>
+<p>This extensions allows you to track generated html files
+with Google Analytics web service.</p>
+<div class="section" id="installing-from-sphinx-contrib-checkout">
+<h3>Installing from sphinx-contrib checkout<a class="headerlink" href="#installing-from-sphinx-contrib-checkout" title="Permalink to this headline">¶</a></h3>
+<p>Checkout sphinx-contrib:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ hg clone https://bitbucket.org/birkenfeld/sphinx-contrib/
+</pre></div>
+</div>
+<p>Change into the googleanalytics directory:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ cd sphinx-contrib/googleanalytics
+</pre></div>
+</div>
+<p>Install the module:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ python setup.py install
+</pre></div>
+</div>
+</div>
+<div class="section" id="enabling-the-extension-in-sphinx">
+<h3>Enabling the extension in <a class="reference external" href="http://sphinx.pocoo.org/">Sphinx</a><a class="headerlink" href="#enabling-the-extension-in-sphinx" title="Permalink to this headline">¶</a></h3>
+<p>Just add <code class="docutils literal notranslate"><span class="pre">sphinxcontrib.googleanalytics</span></code> to the list of extensions in the <code class="docutils literal notranslate"><span class="pre">conf.py</span></code>
+file. For example:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">extensions</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;sphinxcontrib.googleanalytics&#39;</span><span class="p">]</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="configuration">
+<h3>Configuration<a class="headerlink" href="#configuration" title="Permalink to this headline">¶</a></h3>
+<p>For now one optional configuration is added to <a class="reference external" href="http://sphinx.pocoo.org/">Sphinx</a>. It can be set in
+<code class="docutils literal notranslate"><span class="pre">conf.py</span></code> file:</p>
+<dl class="simple">
+<dt><code class="docutils literal notranslate"><span class="pre">googleanalytics_id</span></code> &lt;string&gt;:</dt><dd><dl class="simple">
+<dt>UA id for your site, example::</dt><dd><p>googleanalytics_id = ‘UA-123-123-123’</p>
+</dd>
+</dl>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">googleanalytics_enabled</span></code> &lt;bool&gt;:</dt><dd><p>True by default, use it to turn off tracking.</p>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+
+
+      </div>
+    </div>
+    <div class="large-3 columns">
+      
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<div class="panel">
+  <h4><a href="../index.html">Inhoud</a></h4>
+  <ul>
+<li><a class="reference internal" href="#">Google Analytics extension for Sphinx</a><ul>
+<li><a class="reference internal" href="#about">About</a><ul>
+<li><a class="reference internal" href="#installing-from-sphinx-contrib-checkout">Installing from sphinx-contrib checkout</a></li>
+<li><a class="reference internal" href="#enabling-the-extension-in-sphinx">Enabling the extension in Sphinx</a></li>
+<li><a class="reference internal" href="#configuration">Configuration</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+</div>
+<div class="panel">
+</div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/googleanalytics/README.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<form action="../search.html" method="get">
+ <div class="panel fl-block-search">
+  <div class="form-group">
+   <input type="text" name="q" class="form-control" placeholder="Trefwoord ..." />
+  </div>
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+
+  <div class="btn-group-justified">
+   <div class="btn-group">
+    <button type="submit" class="button expand" style="font-size:11px">Zoeken</button>
+   </div>
+  </div>
+ </div>
+</form>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+  <div class="push"></div>
+</div> <!-- end container -->
+<!-- footer -->
+<div id="footerContainer">
+  <footer id="footer-bottom" role="contentinfo">
+    <div class="footer-bottom-inner inner">
+      <p class="copyright">
+        &#169; Copyright 2021, youweikang.
+        Created using <a href="http://sphinx-doc.org/">Sphinx</a> 3.4.2.
+      </p>
+      <p class="pull-right">
+        <a href="#">Terug naar boven</a>
+      </p>
+    </div>
+  </footer>
+  <script type="text/javascript" src="//widgets.vlaanderen.be/widget/live/79a9f632dc8e45aa884f7924ee16f7bf?mtime=1421237274"></script>
+</div>
+<!-- end footer -->
+<script src="../_static/bower_components/foundation/js/foundation.min.js"></script>
+<script src="../_static/js/app.js"></script>
+  </body>
+</html>
