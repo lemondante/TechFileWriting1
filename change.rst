@@ -117,7 +117,5 @@
    </td>
    </tr>
    </table>
-   <table>
-
 
 .. |image0| image:: picture/adjustment_height.png
